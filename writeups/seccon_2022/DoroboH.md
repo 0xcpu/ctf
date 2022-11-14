@@ -171,7 +171,7 @@ the _offset_ of `hKey` from `RBP`. Using the same approach it is possible to obt
 # Solution
 
 Using the correct arguments and recreating the correct state before the `CryptDecrypt` call, the solution script that I've
-glued together durint the CTF is:
+glued together during the CTF is:
 ```python
 from dumpulator import Dumpulator
 
@@ -218,7 +218,6 @@ Date: bytearray(b'/C echo "SECCON{M3m0ry_Dump+P4ck3t_C4ptur3=S0ph1st1c4t3d_F0r3n
 
 # Conclusion
 
-Thanks to the author of the challenge ([ptr-yudai](https://twitter.com/ptrYudai)) and to [@mrexodia](https://twitter.com/mrexodia) for his
-nice tool.
+Thanks to the author of the challenge ([ptr-yudai](https://twitter.com/ptrYudai)) and to [@mrexodia](https://twitter.com/mrexodia) for his nice tool.
 
 happy ctfing!
